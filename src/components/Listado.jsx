@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 
 const Listado = ({ listaConjunto }) => {
   return (
-    <div>
+    <div className="pb-5">
       <Table responsive striped bordered hover>
         <thead>
           <tr>
