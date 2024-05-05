@@ -22,8 +22,8 @@ const Alerta = ({
     }
     return (
       <>
-        <Alert className="text-start mt-3 p-1" variant={color}>
-          <ul>{texto}</ul>
+        <Alert className="mt-3 p-1" variant={color}>
+          <p>{texto}</p>
         </Alert>
       </>
     );
